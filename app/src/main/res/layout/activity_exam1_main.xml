@@ -4,6 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true">
+    <!--
+        직접 풀어보기(12-2)
+        1. '이름'에 그룹 이름과 변경된 인원을 입력 후 <수정>을 클릭하면 해당 그룹의 인원이 변경된다
+        2. '이름'에 그룹 이름을 입력하고 <삭제>를 클릭하면 해당 그룹의 행이 삭제된다.
+        3. <입력>, <수정>, <삭제>를 클릭하면 그 결과가 즉시 화면에 출력된다
+
+     -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -43,31 +50,39 @@
             android:id="@+id/btnInit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="5dp"
-            android:backgroundTint="#50000000"
-            android:textColor="@color/black"
-            android:text="초기화"/>
+            android:layout_weight="1"
+            android:text="초기"/>
         <Button
             android:id="@+id/btnInsert"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="5dp"
-            android:backgroundTint="#50000000"
-            android:textColor="@color/black"
+            android:layout_weight="1"
             android:text="입력"/>
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="수정"/>
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="삭제"/>
         <Button
             android:id="@+id/btnSelect"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#50000000"
-            android:textColor="@color/black"
+            android:layout_weight="1"
             android:text="조회"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal"
-        android:gravity="center">
+        android:gravity="center"
+        android:background="#E1BEE7">
         <EditText
             android:id="@+id/edtNameResult"
             android:layout_width="wrap_content"
