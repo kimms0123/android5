@@ -24,6 +24,10 @@
         <activity android:name=".exam1" android:exported="true"/>
         <activity android:name=".exam2" android:exported="true"/>
         <activity android:name=".exam2_2" android:exported="true"/>
+        <activity android:name=".exam3" android:exported="true"/>
+        <activity android:name=".exam3_2" android:exported="true"/>
+        <activity android:name=".exam3_3" android:exported="true"/>
+        <activity android:name=".test" android:exported="true"/>
     </application>
 
 </manifest>

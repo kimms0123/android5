@@ -5,16 +5,19 @@
       <SelectionState runConfigName="app">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="MainActivity">
+      <SelectionState runConfigName="exam3_2">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="exam1">
+      <SelectionState runConfigName="exam3">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="exam2">
+      <SelectionState runConfigName="exam3_2 (1)">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="exam2_2">
+      <SelectionState runConfigName="exam3_3">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="test">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>
